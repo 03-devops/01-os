@@ -9,4 +9,5 @@
     grep -n "hello" file.txt    // show line
     grep -w "hello" file.txt    // search for whole words only
     grep -o "hello" file.txt    // show only matching part
+    ps -ef | grep httpd
 ```
